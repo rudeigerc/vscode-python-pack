@@ -1,0 +1,26 @@
+{
+  "name": "vscode-python-pack",
+  "publisher": "yuchenrcheng",
+  "displayName": "Python Extension Pack",
+  "description": "Extension Pack for Python",
+  "version": "0.0.1",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "keywords": [
+    "python"
+  ],
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "charliermarsh.ruff",
+    "editorconfig.editorconfig",
+    "ms-python.mypy-type-checker",
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "njpwerner.autodocstring",
+    "tamasfe.even-better-toml"
+  ]
+}
