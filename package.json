@@ -5,6 +5,14 @@
   "description": "Extension Pack for Python",
   "version": "0.0.1",
   "license": "MIT",
+  "icon": "resources/python.png",
+  "repository": {
+      "url": "https://github.com/rudeigerc/vscode-python-pack"
+  },
+  "homepage": "https://github.com/rudeigerc/vscode-python-pack",
+  "bugs": {
+      "url": "https://github.com/rudeigerc/vscode-python-pack/issues"
+  },
   "engines": {
     "vscode": "^1.75.0"
   },

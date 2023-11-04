@@ -15,3 +15,5 @@ This extension pack includes a set of extensions for Python development in Visua
 ## License
 
 MIT
+
+The Python logo is a trademark of the Python Software Foundation.
