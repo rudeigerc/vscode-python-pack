@@ -7,14 +7,15 @@
   "license": "MIT",
   "icon": "resources/python.png",
   "repository": {
-      "url": "https://github.com/rudeigerc/vscode-python-pack"
+    "url": "https://github.com/rudeigerc/vscode-python-pack"
   },
   "homepage": "https://github.com/rudeigerc/vscode-python-pack",
   "bugs": {
-      "url": "https://github.com/rudeigerc/vscode-python-pack/issues"
+    "url": "https://github.com/rudeigerc/vscode-python-pack/issues"
   },
   "engines": {
-    "vscode": "^1.75.0"
+    "vscode": "^1.75.0",
+    "pnpm": "^8.0.0"
   },
   "keywords": [
     "python"
@@ -30,5 +31,12 @@
     "ms-python.vscode-pylance",
     "njpwerner.autodocstring",
     "tamasfe.even-better-toml"
-  ]
+  ],
+  "scripts": {
+    "package": "vsce package",
+    "release": "vsce publish"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^2.22.0"
+  }
 }
