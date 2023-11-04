@@ -1,7 +1,7 @@
 {
-  "name": "vscode-python-pack",
+  "name": "vscode-python-pack-yc",
   "publisher": "yuchenrcheng",
-  "displayName": "Python Extension Pack",
+  "displayName": "Python Extension Pack YC",
   "description": "Extension Pack for Python",
   "version": "0.0.1",
   "license": "MIT",
